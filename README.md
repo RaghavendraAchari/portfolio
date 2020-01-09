@@ -1,5 +1,7 @@
 # portfolio
 
+This is my portfolio site built using vue.js framework. 
+
 ## Project setup
 ```
 npm install
