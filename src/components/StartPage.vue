@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <NavBar/>
     <Info/>
+    <hr  class="container my-4">
+    <Grad />
   </div>
 </template>
 
@@ -9,6 +11,7 @@
 
 import NavBar from "./NavBar.vue";
 import Info from "./Info.vue";
+import Grad from "./Grad";
 
 export default {
   name: "StartPage",
@@ -17,7 +20,8 @@ export default {
   },
   components:{
     NavBar,
-    Info
+    Info,
+    Grad
   }
 };
 </script>

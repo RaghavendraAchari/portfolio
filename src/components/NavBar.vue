@@ -1,12 +1,12 @@
 <template>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light mb-2">
             <div class="container">
-                <span class="navbar-brand mb-0 h1">RAGHAVENDRA ACHARI</span>
+                <span class="navbar-brand">RAGHAVENDRA ACHARI</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link  active" href="#">Info</a>
                         <a class="nav-item nav-link" href="#">Till Now</a>
                         <a class="nav-item nav-link" href="#">Skills</a>

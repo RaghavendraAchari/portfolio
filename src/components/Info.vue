@@ -1,25 +1,27 @@
 <template>
-    <div>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 justify-content-md-end">
-                <h5>
-                    The content of the Info
-tab fsdsfssgdfsg sagfdd
-fsgfdgdgd sgg sgdfgdgdd 
+            <div class="col-md-6">
+                <h5 class="text-right">
+                    The content of the Info<br>
+                    tab fsdsfssgdfsg sagfdd<br>
+                    fsgfdgdgd sgg sgdfgdgdd<br> 
                 </h5>
-                <div class="float-right">
+                <div class="row col-12 m-0 p-0" >
+                    <div class=" ml-auto">
                     <button class="btn btn-primary m-1 ">Explore</button>
                     <button class="btn btn-primary m-1">Cantact</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 justify-content-md-start">
-                <div id="logo1" class="float-left">
+            <div class="col-md-6">
+                <div id="logo1">
                     <img src="./../assets/logo.png" />
                 </div>
-                <div id="logo" class="float-left">
-                <button @click="getResume" class="btn btn-primary">Get Resume</button>
+                <br>
+                <div id="logo" class="mr-auto">
+                    <button class="btn btn-primary">Get Resume</button>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -27,18 +29,6 @@ fsgfdgdgd sgg sgdfgdgdd
 
 <script>
 export default {
-    name:"Info",
-    methods:{
-        getResume: ()=>{
-            console.log("Clicked Get Resume");
-        }
-    }
+    name:"Info"
 }
 </script>   
-
-<style >
-    #logo{
-        clear: left;
-    }
-</style>
-
